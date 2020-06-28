@@ -31,10 +31,13 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
     }
     @Override
     public void onBindViewHolder(@NonNull CartAdapter.CartViewHolder holder, int position) {
+        int tot;
         final Cart i=items.get(position);
         holder.name.setText(i.getName());
         holder.price.setText("Price: Rs "+i.getPrice());
         holder.quantity.setText("Quantity: "+i.getQuantity());
+        tot=Integer.parseInt(i.getPrice())*Integer.parseInt(i.getQuantity());
+        holder.total.setText("Total Price: "+(tot));
     }
 
     @Override
@@ -43,12 +46,13 @@ public class CartAdapter extends RecyclerView.Adapter<CartAdapter.CartViewHolder
     }
 
     class CartViewHolder extends RecyclerView.ViewHolder{
-        TextView name,quantity,price;
+        TextView name,quantity,price,total;
         public CartViewHolder(View itemView){
             super(itemView);
             name = itemView.findViewById(R.id.prname);
             price=itemView.findViewById(R.id.prprice);
             quantity=itemView.findViewById(R.id.prquant);
+            total=itemView.findViewById(R.id.prtotal);
         }
     }
 }
