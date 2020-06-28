@@ -7,5 +7,11 @@
     android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
     android:elevation="4sp"
     android:fontFamily="@font/heading2">
+    <Button
+        android:layout_width="50sp"
+        android:layout_height="match_parent"
+        android:id="@+id/goToCart"
+        android:layout_marginLeft="100sp"
+        android:background="@drawable/cart_white"/>
 
 </androidx.appcompat.widget.Toolbar>

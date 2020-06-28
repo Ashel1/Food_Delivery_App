@@ -15,7 +15,8 @@
         tools:replace="android:icon">
         <activity android:name=".CartActivity" />
         <activity android:name=".dishDetail" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

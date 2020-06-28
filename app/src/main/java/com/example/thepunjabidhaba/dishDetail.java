@@ -9,6 +9,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.cepheuen.elegantnumberbutton.view.ElegantNumberButton;
 import com.google.firebase.database.DataSnapshot;
@@ -88,5 +89,6 @@ public class dishDetail extends AppCompatActivity {
         cartMap.put("Time",saveCurrentTime);
         cartMap.put("Quantity",quantbt.getNumber());
         cartreference.child(name.getText().toString()).setValue(cartMap);
+        Toast.makeText(dishDetail.this,"Item Added To Cart",Toast.LENGTH_SHORT).show();
     }
 }

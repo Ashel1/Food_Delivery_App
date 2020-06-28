@@ -49,26 +49,26 @@
         android:paddingRight="20px"
         android:text="@string/price"
         android:textColor="@android:color/darker_gray"
-        android:id="@+id/dishPrice1"
-        android:gravity="right"/>
+        android:id="@+id/dishPrice1"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0px"
-        android:gravity="right"
+        android:gravity="center"
         android:layout_weight="1">
         <com.cepheuen.elegantnumberbutton.view.ElegantNumberButton
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="180sp"
+            android:layout_height="53sp"
             android:id="@+id/quantbt"
-            android:elevation="6dp"
+            android:layout_marginRight="10sp"
             app:initialNumber="1"
             app:textSize="16dp"
             tools:ignore="InvalidId" />
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="180sp"
+            android:layout_height="53sp"
             android:gravity="center"
             android:id="@+id/toCart1"
+            android:layout_marginLeft="10sp"
             android:background="#FF0000"
             android:textColor="@android:color/white"
             android:text="@string/toCart"/>
