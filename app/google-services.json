@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "641240059137",
+    "firebase_url": "https://the-punjabi-dhaba.firebaseio.com",
+    "project_id": "the-punjabi-dhaba",
+    "storage_bucket": "the-punjabi-dhaba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:641240059137:android:c98193fcdefb77c4269f00",
+        "android_client_info": {
+          "package_name": "com.example.thepunjabidhaba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "641240059137-06m71rele4s540lav5k5nntu3obuctm0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thepunjabidhaba",
+            "certificate_hash": "cf0fb7c0901f8ce41b452fe632336dadec804770"
+          }
+        },
+        {
+          "client_id": "641240059137-hhr0g0vngmabukb3dult2nv84ujvbnlp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHRYmtJO4EgmQMyVNL3wd1XnZAiBVm89I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "641240059137-hhr0g0vngmabukb3dult2nv84ujvbnlp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

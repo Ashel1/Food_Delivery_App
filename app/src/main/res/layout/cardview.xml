@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="130sp"
+    android:background="@drawable/customborder"
+    android:layout_marginTop="10px"
+    android:weightSum="31"
+    android:orientation="horizontal">
+
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="130sp"
+        android:layout_weight="13">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:id="@+id/dishImg">
+        </ImageView>
+    </LinearLayout>
+
+
+
+        <TextView
+            android:layout_width="0px"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/dishType"
+            android:background="@android:color/holo_green_light">
+        </TextView>
+
+
+
+    <LinearLayout
+        android:layout_width="0px"
+        android:layout_height="130sp"
+        android:layout_weight="17"
+        android:weightSum="6"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/dishName"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:text="@string/name"
+            android:layout_weight="4"
+            android:textSize="30sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/dishPrice"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Price= lots"></TextView>
+
+        <TextView
+            android:id="@+id/dishTime"
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Time=None"></TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
